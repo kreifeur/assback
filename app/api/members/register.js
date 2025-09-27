@@ -1,5 +1,5 @@
-import { connectToDatabase } from '../../../lib/mongodb';
-import { Member } from '../../../models/Member';
+import { connectToDatabase } from '../lib/mongodb';
+import { Member } from '../models/Member';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
