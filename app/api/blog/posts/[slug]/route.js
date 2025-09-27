@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import dbConnect from '../../../../../lib/mongodb';
-import BlogPost from '../../../../../models/BlogPost';
+import dbConnect from '../../../lib/mongodb';
+import BlogPost from '../../../models/BlogPost';
 
 export async function GET(request, { params }) {
   try {
